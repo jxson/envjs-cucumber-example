@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+  <title>capybara-envjs Example</title>
+
+  <meta name="author" content="Jason Campbell" />
+  <meta name="robots" content="all" />
+  <meta name="revisit-after" content="15 days" />
+  <meta name="rating" content="safe for kids" />
+
+  <link rel="icon" type="image/png" href="/images/favicon.png" />
+
+  <link rel="stylesheet" href="/stylesheets/reset.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="/stylesheets/main.css" type="text/css" media="screen" />
+
+  <script type="text/javascript" src="/javascripts/jquery.js"></script>
+  <script type="text/javascript" src="/javascripts/application.js"></script>
+</head>
+
+<body>
+  <h1>This is an example of how to get capybara-envjs gem driving cucumber</h1>
+
+  <p>
+    Scenario: click event <br />
+    <a href="#" id="test-link">Test link</a>
+  </p>
+
+  <p>
+    Scenario: form submission
+  </p>
+
+  <form action="/" method="post" id="test-form">
+    <label for="movie">Best movie ever?</label>
+
+    <input id="movie" type="text" name="movie" />
+
+    <input type="submit" value="Submit &rarr;" />
+  </form>
+
+  <p id="result"></p>
+</body>
+</html>

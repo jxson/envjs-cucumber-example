@@ -1,0 +1,20 @@
+body {
+  margin: 0 auto;
+  padding: 0 1.125em;
+  font-size: 14.22px;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 15.9975px;
+  max-width: 832px;
+  color: #000;
+}
+
+h1 {
+  line-height: 1.125em;
+  margin: 1.125em 0;
+}
+
+p {
+  margin: 20.9034px 0;
+  line-height: 19.908px;
+  word-spacing: 0.125em;
+}
