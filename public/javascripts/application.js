@@ -7,6 +7,13 @@ $(window).load(function(){
   $('form#test-form').submit(function(e){
     e.preventDefault();
     var movie = $('input#movie').val();
-    $('p#result').html('You think ' + movie + ' is the best movie ever? Pfff...');
+    $.ajax({
+      type: 'POST',
+      data: {movie: movie},
+      url: '/is_it_the_best',
+      success: function(data) {
+        $('p#result').html(data);
+      }
+    });
   });
 });
