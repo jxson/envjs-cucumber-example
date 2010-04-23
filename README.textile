@@ -11,6 +11,8 @@ This is an example Sinatra application showing how to set up these guys with cuc
 * "Capybara":http://github.com/jnicklas/capybara
 * "capybara-envjs":http://github.com/smparkes/capybara-envjs
 
+h2. 
+
 Enjoy...
 
 h2. Licensee:
