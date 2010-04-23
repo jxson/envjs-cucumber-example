@@ -11,9 +11,14 @@ This is an example Sinatra application showing how to set up these guys with cuc
 * "Capybara":http://github.com/jnicklas/capybara
 * "capybara-envjs":http://github.com/smparkes/capybara-envjs
 
-h2. 
+h2. Development
 
-Enjoy...
+To get the features to run you should make sure you have the most recent version of "bundler":http://gembundler.com/ installed.
+
+You can then run:
+
+bundle install
+rake cucumber
 
 h2. Licensee:
 
